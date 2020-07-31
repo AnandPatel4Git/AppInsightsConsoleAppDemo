@@ -15,7 +15,7 @@ namespace AppInsightsConsoleAppDemo
         {
             TelemetryConfiguration configuration = TelemetryConfiguration.CreateDefault();
 
-            configuration.InstrumentationKey = "a304ec24-e939-45ca-9aa6-1363b4551aab";
+            configuration.InstrumentationKey = "please put your app insights instrumentation key";
             configuration.TelemetryInitializers.Add(new HttpDependenciesParsingTelemetryInitializer());
 
             var telemetryClient = new TelemetryClient(configuration);
